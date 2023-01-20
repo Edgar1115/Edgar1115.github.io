@@ -489,6 +489,9 @@ button {
   transition-property: color, background, box-shadow, border-color, transform;
 }
 .btn:hover {
+  transform: scaleX(1.06) scaleY(1.06);
+}
+.btn:hover {
   color: var(--background-color-1);
   background: var(--primary-color);
 }
@@ -2295,6 +2298,9 @@ pre .javascript .function {
 .post-tools-container .tools-list li:last-child {
   margin-bottom: 0;
 }
+.post-tools-container .tools-list li:hover {
+  transform: scaleX(1.06) scaleY(1.06);
+}
 .post-tools-container .tools-list li.toggle-show-toc {
   display: none;
 }
@@ -2538,17 +2544,6 @@ pre .javascript .function {
   height: 100vh;
   overflow: hidden;
   background: url("/images/bg.svg") center center/cover no-repeat;
-  background-position-y: 70px;
-}
-@media (max-width: 800px) {
-  .first-screen-container {
-    background-position-y: 63px;
-  }
-}
-@media (max-width: 500px) {
-  .first-screen-container {
-    background-position-y: 56px;
-  }
 }
 .first-screen-container .content {
   position: relative;
@@ -2825,6 +2820,9 @@ pre .javascript .function {
   .home-content-container .home-article-list .home-article-item {
     margin-bottom: 22.8px;
   }
+}
+.home-content-container .home-article-list .home-article-item:hover {
+  transform: scaleX(1.015) scaleY(1.015);
 }
 @media (max-width: 800px) {
   .home-content-container .home-article-list .home-article-item {
@@ -3167,6 +3165,10 @@ pre .javascript .function {
   transition-timing-function: ease, ease, ease, ease, linear;
   transition-duration: 0.2s, 0.2s, 0.2s, 0.2s, 0.2s;
   transition-property: color, background, box-shadow, border-color, transform;
+}
+.post-page-container .article-content-container .article-nav .article-prev:hover,
+.post-page-container .article-content-container .article-nav .article-next:hover {
+  transform: scaleX(1.03) scaleY(1.03);
 }
 @media (max-width: 800px) {
   .post-page-container .article-content-container .article-nav .article-prev,
