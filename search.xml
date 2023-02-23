@@ -15,6 +15,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Qt Study Note</title>
+    <url>/2023/02/23/Qt-Study-Note/</url>
+    <content><![CDATA[<!---->
+
+<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> 安装Qt</li>
+<li><input disabled="" type="checkbox"> 第一个Qt程序</li>
+</ul>
+]]></content>
+      <categories>
+        <category>STU Blog</category>
+      </categories>
+      <tags>
+        <tag>Computer Language</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Chelsea News 230220</title>
     <url>/2023/02/20/Chelsea-News-230220/</url>
     <content><![CDATA[<!-- -->
@@ -68,7 +85,13 @@
 <p>conda remove –name $your_env_name  $package_name（包名）：删除虚拟环境里的包</p>
 <p>conda remove -n your_env_name(虚拟环境名称) –all：删除虚拟环境</p>
 <p>conda create -n your_env_name-gpu tensorflow-gpu：创建可同时调用gpu和cpu的虚拟环境<br>conda activate your_env_name(-gpu)：启动虚拟环境<br>conda deactivate：退出虚拟环境</p>
+<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
+<li><input disabled="" type="checkbox"> 安装指定python版本的虚拟环境</li>
+</ul>
 ]]></content>
+      <categories>
+        <category>STU Blog</category>
+      </categories>
       <tags>
         <tag>AI STU</tag>
       </tags>
