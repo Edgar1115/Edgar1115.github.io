@@ -55,68 +55,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Qt Study Note</title>
-    <url>/2023/02/23/Qt-Study-Note/</url>
-    <content><![CDATA[<!---->
-
-<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
-<li><input checked="" disabled="" type="checkbox"> 安装Qt</li>
-<li><input disabled="" type="checkbox"> 第一个Qt程序</li>
-</ul>
-]]></content>
-      <categories>
-        <category>STU Blog</category>
-      </categories>
-      <tags>
-        <tag>Computer Language</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TensorFlow 学习记录</title>
-    <url>/2023/02/13/Tensoflow%20%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<!---------------->
-
-<h2 id="Tensorflow常用命令"><a href="#Tensorflow常用命令" class="headerlink" title="Tensorflow常用命令"></a>Tensorflow常用命令</h2><!---------------->
-
-
-
-<p>conda env list：展示所有虚拟环境</p>
-<p>conda list：展示安装的包</p>
-<p>conda remove –name $your_env_name  $package_name（包名）：删除虚拟环境里的包</p>
-<p>conda remove -n your_env_name(虚拟环境名称) –all：删除虚拟环境</p>
-<p>conda create -n your_env_name-gpu tensorflow-gpu：创建可同时调用gpu和cpu的虚拟环境<br>conda activate your_env_name(-gpu)：启动虚拟环境<br>conda deactivate：退出虚拟环境</p>
-<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
-<li><input disabled="" type="checkbox"> 安装指定python版本的虚拟环境</li>
-</ul>
-]]></content>
-      <categories>
-        <category>STU Blog</category>
-      </categories>
-      <tags>
-        <tag>AI STU</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/01/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<!-- 分割线 -->
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Chelsea News 230225</title>
     <url>/2023/02/25/Chelsea-News-230225/</url>
     <content><![CDATA[<!-- -->
@@ -204,5 +142,142 @@
         <tag>Chelsea News</tag>
         <tag>Translate</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Chelsea News 230227</title>
+    <url>/2023/02/27/Chelsea-News-230227/</url>
+    <content><![CDATA[<!---->
+
+<h2 id="Boehly-and-Clearlake’s-project-with-Graham-Potter-is-turning-into-a-nightmare"><a href="#Boehly-and-Clearlake’s-project-with-Graham-Potter-is-turning-into-a-nightmare" class="headerlink" title="Boehly and Clearlake’s project with Graham Potter is turning into a nightmare"></a>Boehly and Clearlake’s project with Graham Potter is turning into a nightmare</h2><p>turn into : 变成；进入</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">伯利和清湖资本与格雷厄姆波特的计划正变为噩梦</span><br></pre></td></tr></table></figure>
+
+<p>Graham Potter and Chelsea are enduring what is one of the worst seasons for the club in recent memory. Currently languishing in 10th position with 1 goal in 6 matches, the fanbase in disarray and the players looking flat on matchday when it matters, it’s time for a in depth talk about our current situation.</p>
+<p>endure : 忍受</p>
+<p>languish : 长期受苦</p>
+<p>fanbase : 粉丝群</p>
+<p>disarray ：无秩序</p>
+<p>flat ：平坦的；缺乏热情的</p>
+<p>when it matters : 在重要的时候</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">格雷厄姆波特和切尔西正在经历切尔西这些年里最差的其中一个赛季。当下由于处在联赛第十的位置，并且在最近的6场比赛里只进了一个球，切尔西球迷群体现在十分混乱，球员在重要的比赛日时看起来也缺乏热情，是时候为我们现在的处境进行一次深刻的讨论了。</span><br></pre></td></tr></table></figure>
+
+<p>Paying a total of £19m plus extra for staff to release Graham Potter and his men from Brighton alongside handing him £60m over the course of 5 years looks like one of the worst managerial decisions ever when you consider they sacked a proven winner like Thomas Tuchel who was on £7m per year.</p>
+<p>proven：证明过</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">为格雷厄姆波特和他的团队付出1900万镑的违约金，并为他支付6000万镑共五年的年薪，现在看来是最糟糕的管理层决策之一，尤其是当你考虑到他们上一位解雇的已经证明过自己能够的赢球的教练——图赫尔，每年只拿到700万镑的年薪。</span><br></pre></td></tr></table></figure>
+
+<p>Clearlake and Todd Boehly have decided to continue to back the under-fire English manager despite the shocking results, stating they believe in him and his vision.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">尽管结果令人感到震惊，清湖和伯利已经决定继续支持这位被收到猛烈抨击的英国主教练，并表示会相信他和他的愿景</span><br></pre></td></tr></table></figure>
+
+<p>You have to respect our owners deep pockets and the £600m investment they made in the transfer market, but I’d be lying if I said I wasn’t concerned about the current state of our club. </p>
+<p>state：情况，情形</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">我们必须尊重我们老板的财力，他们在转会市场投入了6亿英镑，但我如果说我不担心我们俱乐部的现状，那我一定是在说谎。</span><br></pre></td></tr></table></figure>
+
+<p>Let’s take a look at a few problems Chelsea fans see and potential solutions. </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">先让我们看一些切尔西球迷们能看见的问题和潜在的解决方案。</span><br></pre></td></tr></table></figure>
+
+<p><strong>Questionable line-ups and player management</strong> :</p>
+<p>line-up：阵容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有问题的阵容和球员管理</span><br></pre></td></tr></table></figure>
+
+<p>Graham Potter has left fans scratching their heads before games even start on a number of occasions so far in his short period at the helm.</p>
+<p>For example, leaving Thiago Silva and Reece James out of the squad for “rest” when we’re in 10th place vs last placed Southampton didn’t make much sense to many across the globe and inside the ground.</p>
+<p>Fast forward to today and Benoit Badiashile was strangely left on the bench despite being our most in form defender whilst Potter chose Hakim Ziyech over the likes of Noni Madueke or Mykhailo Mudryk (Mudryk could have played on the left with Sterling on the right considering the impact Sterling had against Southampton was from the right hand side)</p>
+<p>Underperforming Mason Mount was subbed on before the likes of the new investments we just mentioned (Mykhailo Mudryk and Noni Madueke) whilst Denis Zakaria was fit enough to start but instead Potter left him out and stuck with Ruben Loftus Cheek, deciding after 60 minutes to do just what Chelsea fans thought he should have done from the start.</p>
+<p>These small details wouldn’t be such a big deal if Chelsea were getting results, but with the way things are going all eyes are on Potter’s decisions, again, many fans have picked up on his insistence for Kai Havertz up top over the proven Pierre Emerick Aubameyang.</p>
+<p><strong>Inconsistent periods in matches :</strong></p>
+<p>Whether it’s adjustments not being made, team speeches directly impacting the lack of urgency and motivation or the wrong substitutes, the players are clearly not responding whatsoever. </p>
+<p><strong>We reported on Monday 20th February that the dressing room is split in thoughts and some individuals are disinterested in Potter’s team meetings, that remains our understanding.</strong></p>
+<p>In today’s match it was neither a good first half or second half, I have never seen a Chelsea team with so little urgency and motivation for a game, they passed the ball around like kid’s at a playpark, the signs we see in front of our eyes are of a team who are not collectively believing in one another and a team that are not motivated by Potter or his staff to put a showing on the pitch that represents Chelsea Football Club.</p>
+<p>Chelsea fan’s stood in silence and disbelief today, they didn’t even have the energy to sing Tuchel’s name or boo at the player’s or manager, their calls of anger are falling on deaf ears to owners who pushed the importance of fan voice.</p>
+<blockquote>
+<p>Todd Boehly in 2019 said: “You always have to keep remembering that the fans are the center, the second you kind of veer just go back to that, think about the fan, think about the fan” </p>
+</blockquote>
+<p>In the past few months there has been no reason to believe Chelsea could comeback in a game, score a late goal to equalize or even win it. </p>
+<p>It’s almost as if the longer the game goes the less ideas Chelsea have. The players can’t break down deep blocks effectively whatsoever and in general look clueless as to the what the plan is in order to actually score a goal.</p>
+<p><strong>Tactics, patterns of play, performances</strong> :</p>
+<p>I’m not going to dive too deep into any of these subjects, but it’s clear that not only Chelsea fans are seeing huge issues with our performances… rival fan’s, pundits, ex players and journalists are also watching on with confusion.</p>
+<p>In terms of tactics, my main issue is that Potter seems to insist with the 4-2-3-1 to encourage his wingers to isolate players and win 1v1s. I actually like the formation and his idea is understandable, but when wingers aren’t winning their battles &amp; can’t produce G&#x2F;A it’s counter intuitive, thus the constant change in team selection and lack of patterns within this formation make it look even worse.</p>
+<p>Chelsea look like a team game to game that are going with the flow and have nothing drilled into them from the training ground, despite having a whole week on the training pitch against Southampton and four – five days training for the match today.</p>
+<p>Potter has the benefit of the doubt that we actually have new players that never played together, however he has been here for over 5 months now and there’s no clear, sustained idea on how his team wants to play, top manager’s install and drill tactics to their players from the off, even if the idea’s take time to fully click, at least they are there. Remember Thomas Tuchel? Remember Maurizio Sarri? You could get behind those managers, you saw a philosophy from the first few weeks.</p>
+<p>Without being toxic, there really isn’t anything to be positive about, or evidence to show “this is the way we want to play”, “this is why we should believe in the Potter project”. </p>
+<p>Chelsea are 10 points off the relegation zone and have conceded more goals (25) than they have scored (23) in a total of 24 matches, Graham Potter also has the worst record out of any Chelsea manager in history as things stand.</p>
+<p><img src="https://i0.wp.com/chelseafc365.com/wp-content/uploads/2023/02/img_2390-297x300.jpg?resize=297,300&ssl=1" alt="img"></p>
+<p><strong>What do Clearlake and Todd Boehly do now?</strong></p>
+<p>The new ownership need to use logic in our current situation, they have to weigh everything up from performances to in game tactics to training ground work to data and so on.</p>
+<p>In house and behind closed doors I think there has to be some expectation or standard, like advancing to the quarter finals of the Champions League, putting no pressure on the coach or team to perform doesn’t help anyone, pressure makes diamonds or Potter could crumble further, If he does not have any pressure to deliver now and the results are this bad, how will he cope when there is internal pressure? </p>
+<p>I would like to think that our new directors have enough sense to see what is also going on &amp; can help our new owners with insight and opinions. Christopher Vivell played an active role in multiple coach changes at RB Leipzig.</p>
+<p>The directors likely don’t have the power or authority to make any final decision, but I’m sure they can see that the club is in a desperate state and could theoretically recommend a change in coach.</p>
+<p>If the owners want to look past the results, the team selections, the toothless, uninspiring football and all the negative data statistics and believe in Potter still there really isn’t much else to say other then we have to be patient and see what happens, but that decision runs the risk of alienating the fans, if they haven’t been already.</p>
+]]></content>
+      <categories>
+        <category>Entertainment</category>
+        <category>Football</category>
+      </categories>
+      <tags>
+        <tag>Chelsea News</tag>
+        <tag>Translate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Qt Study Note</title>
+    <url>/2023/02/23/Qt-Study-Note/</url>
+    <content><![CDATA[<!---->
+
+<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> 安装Qt</li>
+<li><input disabled="" type="checkbox"> 第一个Qt程序</li>
+</ul>
+]]></content>
+      <categories>
+        <category>STU Blog</category>
+      </categories>
+      <tags>
+        <tag>Computer Language</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TensorFlow 学习记录</title>
+    <url>/2023/02/13/Tensoflow%20%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<!---------------->
+
+<h2 id="Anaconda3常用命令"><a href="#Anaconda3常用命令" class="headerlink" title="Anaconda3常用命令"></a>Anaconda3常用命令</h2><!---------------->
+
+
+
+<p>conda env list：展示所有虚拟环境</p>
+<p>conda list：展示安装的包</p>
+<p>conda remove –name $your_env_name  $package_name（包名）：删除虚拟环境里的包</p>
+<p>conda remove -n your_env_name(虚拟环境名称) –all：删除虚拟环境</p>
+<p>conda create -n your_env_name-gpu tensorflow-gpu：创建可同时调用gpu和cpu的虚拟环境<br>conda activate your_env_name(-gpu)：启动虚拟环境<br>conda deactivate：退出虚拟环境</p>
+<p>conda create –name testEnv python&#x3D;3.8.2 : 创建指定python版本的虚拟环境</p>
+<h2 id="进度"><a href="#进度" class="headerlink" title="进度"></a>进度</h2><ul>
+<li><input disabled="" type="checkbox"> 安装指定python版本的虚拟环境</li>
+</ul>
+]]></content>
+      <categories>
+        <category>STU Blog</category>
+      </categories>
+      <tags>
+        <tag>AI STU</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/01/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<!-- 分割线 -->
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
   </entry>
 </search>
