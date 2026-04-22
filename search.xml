@@ -1,59 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello,New Year!</title>
-    <url>/2024/01/01/Hello-New-Year/</url>
-    <content><![CDATA[<img src="/2024/01/01/Hello-New-Year/0041L2zSgy1hlcqtd13p3j61jk1jk1eq02.jpg" alt=" " width="70%" height="auto">
+    <title>TO-DO</title>
+    <url>/2023/12/31/TO-DO/</url>
+    <content><![CDATA[<h2><span id="2023-12-31">2023-12-31</span></h2><ul>
+<li><input checked disabled type="checkbox"> Hexo博客搭建</li>
+<li><input checked disabled type="checkbox"> 安装Linux双系统</li>
+</ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Dairy_Record</title>
-    <url>/2024/09/05/Dairy-Record/</url>
-    <content><![CDATA[<h3><span id="李俊哲">李俊哲</span></h3><h4><span id="240905">24.09.05</span></h4><ol>
-<li><p>情感问题</p>
-<ul>
-<li>刚跟第三任女友分手</li>
-</ul>
-</li>
-<li><p>实习</p>
-<ol>
-<li>中医院 暑期实践活动 收发文件</li>
-</ol>
-</li>
-<li><p>以后工作——路线</p>
-<ol>
-<li>升本</li>
-<li>英语四级</li>
-<li>教资</li>
-<li>考公</li>
-</ol>
-</li>
-<li><p>暑假做了个鼻子矫正手术</p>
-</li>
-</ol>
-<h3><span id="周杨">周杨</span></h3><h4><span id="240906">24.09.06</span></h4><ol>
-<li><p>工作</p>
-<ul>
-<li><p>核物理西南研究所——高温超导</p>
-</li>
-<li><p>地点：双流</p>
-</li>
-<li><p>最近的娱乐场所：环球中心</p>
-</li>
-</ul>
-</li>
-<li><p>自己租房子</p>
-<ul>
-<li>单位给租金</li>
-<li>与室友（男）literally不交流</li>
-<li>每天下午五点左右下班</li>
-<li>晚上八点就上床了，九、十点左右睡着</li>
-<li>早上八点起</li>
-</ul>
-</li>
-<li></li>
-</ol>
-]]></content>
+      <categories>
+        <category>TODO-LIST</category>
+      </categories>
+      <tags>
+        <tag>Life</tag>
+      </tags>
   </entry>
   <entry>
     <title>Chapter1</title>
@@ -114,21 +74,6 @@
       <tags>
         <tag>Relax</tag>
         <tag>Friends&amp;Food&amp;Scenery</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TO-DO</title>
-    <url>/2023/12/31/TO-DO/</url>
-    <content><![CDATA[<h2><span id="2023-12-31">2023-12-31</span></h2><ul>
-<li><input checked disabled type="checkbox"> Hexo博客搭建</li>
-<li><input checked disabled type="checkbox"> 安装Linux双系统</li>
-</ul>
-]]></content>
-      <categories>
-        <category>TODO-LIST</category>
-      </categories>
-      <tags>
-        <tag>Life</tag>
       </tags>
   </entry>
   <entry>
