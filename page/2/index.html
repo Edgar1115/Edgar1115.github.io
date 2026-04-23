@@ -102,7 +102,7 @@
         
           <section id="main">
   
-    <article id="post-长度最小的字数组"  class="article article-type-post" itemscope itemprop="blogPost" >
+    <article id="post-区间和"  class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
     
@@ -110,7 +110,7 @@
         
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2026/04/22/%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%97%E6%95%B0%E7%BB%84/">长度最小的子数组</a>
+      <a class="article-title" href="/2026/04/22/%E5%8C%BA%E9%97%B4%E5%92%8C/">区间和</a>
     </h1>
   
 
@@ -118,7 +118,7 @@
     
     <div class="article-meta">
       
-	<a href="/2026/04/22/%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%97%E6%95%B0%E7%BB%84/" class="article-date">
+	<a href="/2026/04/22/%E5%8C%BA%E9%97%B4%E5%92%8C/" class="article-date">
 	  <time datetime="2026-04-22T11:00:00.000Z" itemprop="datePublished">April 22, 2026</time>
 	</a>
 
@@ -130,11 +130,27 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h2><span id="leetcode-t209-长度最小的子数组">leetcode t209 长度最小的子数组</span></h2><blockquote>
-<p>给定一个含有 n 个正整数的数组和一个正整数 target 。<br>找出该数组中满足其总和大于等于 target 的长度最小的 子数组 [numsl, numsl+1, …, numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。</p>
+        <h2><span id="区间和">区间和</span></h2><p><strong>题目描述</strong></p>
+<blockquote>
+<p>给定一个整数数组 Array，请计算该数组在每个指定区间内元素的总和。</p>
 </blockquote>
-<p>思路：滑动窗口法，类似于快慢指针，通过指针的移动来控制窗口的大小。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">minSubArrayLen</span><span class="params">(<span class="type">int</span> target, <span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> Integer.MAX_VALUE;</span><br><span class="line">        <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> <span class="variable">al</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">j</span> <span class="operator">=</span> <span class="number">0</span>; j &lt; nums.length; j++)&#123;</span><br><span class="line">            sum = sum + nums[j];</span><br><span class="line">            <span class="keyword">while</span>(sum &gt;= target)&#123;</span><br><span class="line">                al = j - i + <span class="number">1</span>;                                 <span class="comment">//要点：长度要 &#x27;+1&#x27;,比如，[1, 2, 3]长度为3，但是 3 - 1 = 2,所以长度应为 2 + 1</span></span><br><span class="line">                result = Math.min(al, result);</span><br><span class="line">                sum = sum - nums[i];</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(result &lt; Integer.MAX_VALUE)&#123;</span><br><span class="line">            <span class="keyword">return</span> result;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><strong>输入描述</strong></p>
+<blockquote>
+<p>第一行输入为整数数组 Array 的长度 n，接下来 n 行，每行一个整数，表示数组的元素。随后的输入为需要计算总和的区间下标：a，b （b &gt; &#x3D; a），直至文件结束。</p>
+</blockquote>
+<p><strong>输出描述</strong></p>
+<blockquote>
+<p>输出每个指定区间内元素的总和。</p>
+</blockquote>
+<p>**输出描述 **</p>
+<blockquote>
+<p>5<br>1<br>2<br>3<br>4<br>5<br>0 1<br>1 3</p>
+</blockquote>
+<p>**输出示例 **</p>
+<blockquote>
+<p>3<br>9</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -606,7 +622,7 @@
               <div class="widget-entry-summary" style="margin: 0;">
             
 
-              <h6 style="margin: 0;"><a href="/2026/04/22/%E5%8C%BA%E9%97%B4%E5%92%8C/">区间和</a></h6>
+              <h6 style="margin: 0;"><a href="/2026/04/22/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80/">数组</a></h6>
               <span>April 22, 2026</span>
             </div>
 
@@ -705,10 +721,6 @@
     
 </script>
     
-<div style="display: none;">
-  <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-</div>
-
 <!-- mathjax config similar to math.stackexchange -->
 
 <script type="text/x-mathjax-config">
@@ -764,10 +776,6 @@
 
 
 
-
-  <div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
 
 
 
