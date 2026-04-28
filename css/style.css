@@ -673,6 +673,14 @@ a.article-title:hover {
   color: #333;
   text-decoration: none;
 }
+.entry-summary-text {
+  line-height: 1.6em;
+  max-height: 6.4em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
 .article-footer {
   font-size: 0.85em;
   line-height: 1.6em;
